@@ -1,0 +1,410 @@
+/* Estilos globales para artículos */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+    line-height: 1.6;
+    color: #1f2937;
+}
+
+/* Artículo principal */
+article {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 2.5rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    margin-bottom: 2rem;
+}
+
+/* Título del artículo */
+article h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #111827;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+    letter-spacing: -0.025em;
+}
+
+/* Metadatos del autor */
+article p small {
+    color: #6b7280;
+    font-size: 0.875rem;
+    font-weight: 500;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: #f3f4f6;
+    border-radius: 20px;
+    margin-bottom: 1.5rem;
+}
+
+/* Imagen principal */
+article img {
+    border-radius: 8px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    margin: 1.5rem 0;
+    display: block;
+    height: auto;
+}
+
+/* Contenido del artículo - párrafos */
+article .content-renderer p,
+article :deep(.content-renderer p) {
+    font-size: 1.125rem;
+    line-height: 1.75;
+    margin-bottom: 1.5rem;
+    color: #374151;
+}
+
+/* Texto en negritas */
+article .content-renderer strong,
+article :deep(.content-renderer strong) {
+    font-weight: 600;
+    color: #1f2937;
+}
+
+/* Texto en cursivas */
+article .content-renderer em,
+article :deep(.content-renderer em) {
+    font-style: italic;
+    color: #4b5563;
+}
+
+/* Enlaces */
+article .content-renderer a,
+article :deep(.content-renderer a) {
+    color: #3b82f6;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: all 0.2s ease;
+}
+
+article .content-renderer a:hover,
+article :deep(.content-renderer a:hover) {
+    color: #1d4ed8;
+    border-bottom-color: #3b82f6;
+}
+
+/* Listas */
+article .content-renderer ul,
+article :deep(.content-renderer ul) {
+    margin: 1.5rem 0;
+    padding-left: 1.5rem;
+}
+
+article .content-renderer li,
+article :deep(.content-renderer li) {
+    margin-bottom: 0.5rem;
+    font-size: 1.125rem;
+    line-height: 1.75;
+    color: #374151;
+}
+
+/* Info Box */
+article .info-box,
+article :deep(.info-box) {
+    background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+    border-left: 4px solid #3b82f6;
+    padding: 1.5rem;
+    margin: 2rem 0;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #1e40af;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos dentro del contenido */
+article .content-renderer h2,
+article :deep(.content-renderer h2) {
+    font-size: 1.875rem;
+    font-weight: 700;
+    color: #111827;
+    margin: 2.5rem 0 1rem 0;
+    line-height: 1.3;
+}
+
+article .content-renderer h3,
+article :deep(.content-renderer h3) {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #111827;
+    margin: 2rem 0 1rem 0;
+    line-height: 1.4;
+}
+
+/* Componente Author */
+.author-component {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 2px solid #e5e7eb;
+}
+
+/* Imagen del autor - redonda */
+.author-component img,
+article .author img,
+article :deep(.author img) {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border: 3px solid #e5e7eb;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+    .container {
+        padding: 1rem;
+    }
+
+    article {
+        padding: 1.5rem;
+    }
+
+    article h1 {
+        font-size: 2rem;
+    }
+
+    article .content-renderer p,
+    article :deep(.content-renderer p) {
+        font-size: 1rem;
+    }
+
+    article .content-renderer h2,
+    article :deep(.content-renderer h2) {
+        font-size: 1.5rem;
+    }
+
+    article .content-renderer h3,
+    article :deep(.content-renderer h3) {
+        font-size: 1.25rem;
+    }
+}
+
+/* Animaciones suaves */
+article {
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Navegación de artículos */
+.article-navigation {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid #e5e7eb;
+}
+
+.article-navigation .button {
+    flex: 1;
+    max-width: 300px;
+    padding: 1rem 1.5rem;
+    background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+    border: 2px solid #e2e8f0;
+    border-radius: 12px;
+    text-decoration: none;
+    color: #475569;
+    font-weight: 600;
+    font-size: 0.875rem;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 1.4;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.article-navigation .button:hover {
+    background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px 0 rgba(59, 130, 246, 0.4);
+    border-color: #3b82f6;
+}
+
+.article-navigation .button:active {
+    transform: translateY(0);
+}
+
+/* Espaciadores invisibles */
+.article-navigation span {
+    flex: 1;
+    max-width: 300px;
+}
+
+/* Responsivo para navegación */
+@media (max-width: 640px) {
+    .article-navigation {
+        flex-direction: column;
+        gap: 0.75rem;
+    }
+
+    .article-navigation .button {
+        max-width: none;
+        padding: 0.875rem 1.25rem;
+        font-size: 0.8125rem;
+    }
+
+    .article-navigation span {
+        display: none;
+    }
+}
+
+/* Estilos para listados de noticias */
+.news-list-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+}
+
+.news-list-container h2 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #111827;
+    margin-bottom: 2rem;
+    text-align: center;
+    letter-spacing: -0.025em;
+    position: relative;
+    padding-bottom: 1rem;
+}
+
+.news-list-container h2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 4px;
+    background: linear-gradient(90deg, #3b82f6, #1d4ed8);
+    border-radius: 2px;
+}
+
+.news-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 1.5rem;
+}
+
+.news-item {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e5e7eb;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.news-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px;
+    height: 100%;
+    background: linear-gradient(180deg, #3b82f6, #1d4ed8);
+    transform: scaleY(0);
+    transition: transform 0.3s ease;
+}
+
+.news-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    border-color: #3b82f6;
+}
+
+.news-item:hover::before {
+    transform: scaleY(1);
+}
+
+.news-item-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.news-item-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #111827;
+    margin: 0 0 0.75rem 0;
+    line-height: 1.4;
+    transition: color 0.3s ease;
+}
+
+.news-item:hover .news-item-title {
+    color: #3b82f6;
+}
+
+.news-item-meta {
+    color: #6b7280;
+    font-size: 0.875rem;
+    font-weight: 500;
+    display: inline-block;
+    padding: 0.375rem 0.75rem;
+    background: #f9fafb;
+    border-radius: 16px;
+    border: 1px solid #e5e7eb;
+    transition: all 0.3s ease;
+}
+
+.news-item:hover .news-item-meta {
+    background: #eff6ff;
+    border-color: #bfdbfe;
+    color: #1e40af;
+}
+
+/* Variante con imagen si la tienes */
+.news-item-with-image {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+.news-item-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+/* Responsivo para listados */
+@media (max-width: 768px) {
+    .news-list-container {
+        padding: 1rem;
+    }
+
+    .news-list-container h2 {
+        font-size: 2rem;
+    }
+
+    .news-item {
+        padding: 1.25rem;
+    }
+
+    .news-item-title {
+        font-size: 1.125rem;
+    }
+}
