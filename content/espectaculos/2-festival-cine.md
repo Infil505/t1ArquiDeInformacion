@@ -3,9 +3,9 @@ title: "Festival Internacional de Cine en San José reúne a grandes estrellas"
 author:
   name: "Andrés Morales"
   bio: "Crítico de cine y periodista cultural."
-  image: "/images/autores/andres.jpg"
+  image: "https://i.pinimg.com/736x/38/39/7c/38397cdf5f9c6545d9f56fdd6e032ded.jpg"
 date: "2025-08-10"
-img: "https://upload.wikimedia.org/wikipedia/commons/4/4f/Film_Festival.jpg"
+img: "https://i.pinimg.com/1200x/82/37/1b/82371b4260f7b4765f166b045a141c46.jpg"
 category: "espectaculos"
 description: "El festival contó con más de 40 películas de 25 países y la presencia de grandes estrellas internacionales."
 ---

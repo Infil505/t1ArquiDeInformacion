@@ -3,9 +3,9 @@ title: "Concierto internacional en San José congrega a miles"
 author:
   name: "María Fernández"
   bio: "Periodista cultural y crítica de espectáculos."
-  image: "/images/autores/maria.jpg"
+  image: "https://i.pinimg.com/1200x/05/68/b0/0568b04fc277caec91a40c94f71dc790.jpg"
 date: "2025-08-09"
-img: "/images/concierto.jpg"
+img: "https://i.pinimg.com/1200x/dd/65/34/dd65348dafee440e0b1e09bc6eb28b13.jpg"
 category: "espectaculos"
 description: "El espectáculo incluyó más de dos horas de música en vivo, juegos de luces y un cierre con fuegos artificiales."
 ---

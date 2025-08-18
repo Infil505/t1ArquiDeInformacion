@@ -3,9 +3,9 @@ title: "Asalto a banco en San José genera alarma ciudadana"
 author:
   name: "Laura Ramírez"
   bio: "Periodista de sucesos con más de 10 años de experiencia."
-  image: "/images/autores/laura.jpg"
+  image: "https://i.pinimg.com/736x/b6/08/02/b6080236b81ee5d5f3fa2b712e9f9fd9.jpg"
 date: "2025-08-10"
-img: "/images/robo-banco.jpg"
+img: "https://i.pinimg.com/1200x/65/b2/0d/65b20d745e071d9c92f85e5b37be65c3.jpg"
 category: "sucesos"
 ---
 

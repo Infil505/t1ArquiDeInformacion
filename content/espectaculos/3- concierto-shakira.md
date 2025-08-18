@@ -3,9 +3,9 @@ title: "Shakira deslumbra en su concierto en Costa Rica"
 author:
   name: "María Fernanda Rojas"
   bio: "Periodista de espectáculos y crítica musical."
-  image: "/images/autores/maria-fernanda.jpg"
+  image: "https://i.pinimg.com/736x/cd/56/62/cd566210d745d80d68ed8792c3722ae1.jpg"
 date: "2025-08-15"
-img: "https://upload.wikimedia.org/wikipedia/commons/6/6e/Shakira_concierto.jpg"
+img: "https://i.pinimg.com/1200x/3f/b6/bb/3fb6bb9370950504fcdabc4b4810e4be.jpg"
 category: "espectaculos"
 description: "Más de 30 mil personas disfrutaron del regreso de la artista colombiana después de diez años de ausencia."
 ---

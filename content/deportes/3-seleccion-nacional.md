@@ -3,9 +3,9 @@ title: "Selección nacional inicia concentración rumbo a eliminatorias"
 author:
   name: "Diego Vargas"
   bio: "Corresponsal de selecciones y torneos internacionales."
-  image: "/images/autores/diego.jpg"
+  image: "https://i.pinimg.com/1200x/f1/65/b7/f165b77b16a7aac5dce81ea3583c91e9.jpg"
 date: "2025-08-15"
-img: "/images/seleccion.jpg"
+img: "https://i.pinimg.com/1200x/f4/1c/fa/f41cfa2ef75055ea1a62759d5877fbee.jpg"
 category: "deportes"
 description: "El grupo entrenará durante dos semanas en el Proyecto Gol."
 ---

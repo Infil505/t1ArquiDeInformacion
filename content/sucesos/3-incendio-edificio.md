@@ -3,9 +3,9 @@ title: "Incendio en edificio de oficinas en Heredia causa evacuación masiva"
 author:
   name: "Sofía Aguilar"
   bio: "Periodista enfocada en emergencias y protección civil."
-  image: "/images/autores/sofia.jpg"
+  image: "https://i.pinimg.com/736x/c9/b4/86/c9b486136abec9fc9e765e8a54b6fb07.jpg"
 date: "2025-08-14"
-img: "/images/incendio.jpg"
+img: "https://i.pinimg.com/736x/ca/7c/0a/ca7c0a685a4cfa1dd0fb5ad298e52dbf.jpg"
 category: "sucesos"
 ---
 

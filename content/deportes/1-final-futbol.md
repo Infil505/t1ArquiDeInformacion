@@ -3,9 +3,9 @@ title: "Final del campeonato nacional de fútbol emociona a la afición"
 author:
   name: "Andrés Torres"
   bio: "Periodista deportivo especializado en fútbol."
-  image: "/images/autores/andres.jpg"
+  image: "https://i.pinimg.com/1200x/ce/2f/2b/ce2f2b7362057cabec12514ffa3ed384.jpg"
 date: "2025-08-11"
-img: "/images/final-futbol.jpg"
+img: "https://i.pinimg.com/736x/35/70/b8/3570b8b9171c2dd69d0597090fca2c10.jpg"
 category: "deportes"
 description: "El clásico cerró con marcador de 2-1 y estadio lleno."
 ---

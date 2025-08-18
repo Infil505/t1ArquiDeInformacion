@@ -3,9 +3,9 @@ title: "Campeonato nacional de atletismo impulsa nuevas promesas"
 author:
   name: "Mariana López"
   bio: "Especialista en atletismo y deportes olímpicos."
-  image: "/images/autores/mariana.jpg"
+  image: "https://i.pinimg.com/1200x/96/28/88/962888f89b1c5d1225c1c83c396aa921.jpg"
 date: "2025-08-13"
-img: "/images/atletismo.jpg"
+img: "https://i.pinimg.com/736x/a9/d8/46/a9d84613e65aef6728c750635045fd90.jpg"
 category: "deportes"
 description: "Jóvenes de todo el país compitieron en pista y campo."
 ---

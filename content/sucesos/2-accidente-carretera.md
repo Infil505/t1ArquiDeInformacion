@@ -3,9 +3,9 @@ title: "Accidente múltiple en la Ruta 27 deja varios heridos"
 author:
   name: "Carlos Méndez"
   bio: "Reportero especializado en tránsito y transporte."
-  image: "/images/autores/carlos.jpg"
+  image: "https://i.pinimg.com/736x/7e/91/03/7e9103b5fb8df86b41be33a032be17e2.jpg"
 date: "2025-08-12"
-img: "/images/accidente.jpg"
+img: "https://i.pinimg.com/1200x/0c/6e/03/0c6e030700664d7f872d4ca1bf532f79.jpg"
 category: "sucesos"
 ---
 
