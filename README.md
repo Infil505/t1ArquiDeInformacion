@@ -1,2 +1,8 @@
-# acceso al proyecto de nuxt en linea_
-https://t1-arqui-de-informacion.vercel.app/
+# acceso al proyecto de nuxt en linea
+
+vercel
+https://t1-arqui-de-informacion.vercel.app
+
+
+netlify
+https://t1informacion.netlify.app
